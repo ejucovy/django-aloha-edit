@@ -22,6 +22,8 @@ class AlohaWidget(forms.Widget):
 
     class Media:
         css = {'all': ('aloha/css/aloha.css',)}
-        js = ('js/aloha-settings.js',
+        js = ('aloha/lib/require.js',
+              'aloha/lib/vendor/jquery-1.7.2.js',
+              'js/aloha-settings.js',
               'aloha/lib/aloha.js',
               'js/init_aloha_form.js')
