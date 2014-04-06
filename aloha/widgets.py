@@ -21,7 +21,7 @@ class AlohaWidget(forms.Widget):
                          % (final_attrs['id'], final_attrs['id'], force_text(value), flatatt(final_attrs)))
 
     class Media:
-        css = {'all': ('aloha/css/aloha.css','aloha-settings.css)}
+        css = {'all': ('aloha/css/aloha.css','aloha-settings.css')}
         js = ('aloha/lib/require.js',
               'aloha/lib/vendor/jquery-1.7.2.js',
               'js/aloha-settings.js',
