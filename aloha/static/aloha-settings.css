@@ -1,4 +1,5 @@
-.aloha-edit#aloha-id_text {
+.aloha-edit#aloha-id_text,
+.aloha-edit#aloha-id_description {
     width: 90%;
     float: right;
     border: 1px solid black;
