@@ -17,7 +17,7 @@ class AlohaWidget(forms.Widget):
         if value is None:
             value = ''
         final_attrs = self.build_attrs(attrs, name=name)
-        return mark_safe('<div style="margin:0;padding:0;" class="aloha-edit span8" data-id="%s" id="aloha-%s">%s</div><input type="hidden"%s />'
+        return mark_safe('<div class="aloha-edit span8" data-id="%s" id="aloha-%s">%s</div><input type="hidden"%s />'
                          % (final_attrs['id'], final_attrs['id'], force_text(value), flatatt(final_attrs)))
 
     class Media:
