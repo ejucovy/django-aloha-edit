@@ -1,5 +1,10 @@
-.aloha-edit {
+.aloha-edit#aloha-id_text {
     width: 90%;
     float: right;
     border: 1px solid black;
+}
+
+.aloha-edit p {
+  margin: 0;
+  padding: 0;
 }
